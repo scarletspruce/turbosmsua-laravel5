@@ -1,0 +1,29 @@
+{
+  "name": "scarletspruce/turbosmsua-laravel5",
+  "description": "Package for turbosms.ua",
+  "keywords": [
+    "sms",
+    "laravel",
+    "laravel5",
+    "turbosms",
+    "text messages",
+    "send"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Valentin Nikolaev",
+      "email": "valenti.nikolaev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "illuminate/support": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scarletspruce\\Turbosms\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
